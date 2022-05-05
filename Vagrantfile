@@ -5,6 +5,9 @@ Vagrant.configure("2") do |config|
   # Base image (Ubuntu 20.04)
   config.vm.box = "ubuntu/focal64"
   
+  # Hostname
+  config.vm.hostname = "ubuntu"
+
   # Disable updates
   config.vm.box_check_update = false
 
